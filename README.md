@@ -5,15 +5,16 @@
 ```
 .
 ├── README.md                 READMEファイル
-└── Dockerfile                Dockerファイル
+├── Dockerfile                Dockerファイル
+└── notebook                  jupyter notebook
 ```
 
 ## 環境構築
-### Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Basic_Visualization）
+Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Basic_Visualization）
 ```
 cd Desktop/Basic_Visualization
 ```
-### Dockerによる環境構築
+Dockerによる環境構築
 ```
 docker build .
 ```
