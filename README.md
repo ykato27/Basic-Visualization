@@ -5,25 +5,26 @@
 ```
 .
 ├── README.md                 READMEファイル
+├── .dockerignore        
 ├── Dockerfile                Dockerファイル
+├── docker-compose.yml
 └── notebook                  jupyter notebook
 ```
 
 ## 環境構築
-Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Basic_Visualization）
+
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Basic_Visualization）
 ```
 cd Desktop/Basic_Visualization
 ```
-Dockerによる環境構築
+
+* Dockerによる環境構築（フォルダをマウント：Desktop/Basic_Visualization）
 ```
-docker build .
+docker-compose up --build
 ```
-docker run実行（対象フォルダをマウントする／例：Desktop/Basic_Visualization）
-```
-docker run -p 8888:8888 -v ~/Desktop/Basic_Visualization/:/work --name Basic_Visualization <docker image>
-```
-ブラウザーを立ち上げてlocalhost:8888へアクセス
-workフォルダ内が対象フォルダにマウントされている
+
+* ブラウザーを立ち上げてlocalhost:8888へアクセス
+* ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
 * Basic_Visualization.ipynb : 基本的な可視化手法のnotebook
