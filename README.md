@@ -1,4 +1,4 @@
-# Basic_Visualization
+# Basic-Visualization
 * 基本的な可視化手法
 
 ## リポジトリ構成
@@ -13,9 +13,9 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Basic_Visualization）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Basic-Visualization）
 ```
-cd Desktop/Basic_Visualization
+cd Desktop/Basic-Visualization
 ```
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Basic_Visualization）
