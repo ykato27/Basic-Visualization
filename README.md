@@ -8,7 +8,8 @@
 ├── .dockerignore        
 ├── Dockerfile                Dockerファイル
 ├── docker-compose.yml
-└── notebook                  jupyter notebook
+├── notebook                  jupyter notebook
+└── data                      dataファイル
 ```
 
 ## 環境構築
