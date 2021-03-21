@@ -31,6 +31,7 @@ docker-compose up --build
 * Basic_Visualization.ipynb : 基本的な可視化手法のnotebook
 * matplotlib_recipe.ipynb : matplotlibの可視化手法のnotebook
 * seaborn_recipe.ipynb : seabornの可視化手法のnotebook
+* plotly_recipe.ipynb : plotly, plotlyexpressの可視化手法のnotebook
 
 ## 動作環境
 マシンスペック（Mac)
