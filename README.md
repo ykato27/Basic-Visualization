@@ -21,7 +21,7 @@ cd Desktop/Basic-Visualization
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Basic_Visualization）
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
