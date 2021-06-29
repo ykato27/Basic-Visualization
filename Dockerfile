@@ -13,4 +13,5 @@ ENV PATH /opt/anaconda3/bin:$PATH
 RUN pip install --upgrade pip \
 	plotly \
 	japanize_matplotlib \
-	nb_black
+	nb_black \
+	colorspacious
