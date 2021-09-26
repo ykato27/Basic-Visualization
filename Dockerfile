@@ -14,4 +14,5 @@ RUN pip install --upgrade pip \
 	plotly \
 	japanize_matplotlib \
 	nb_black \
-	colorspacious
+	colorspacious \
+	seaborn-analyzer
