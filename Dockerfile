@@ -15,4 +15,5 @@ RUN pip install --upgrade pip \
 	japanize_matplotlib \
 	nb_black \
 	colorspacious \
-	seaborn-analyzer
+	seaborn-analyzer \
+	missingno
