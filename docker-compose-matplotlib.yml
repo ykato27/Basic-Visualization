@@ -1,0 +1,14 @@
+version: "3"
+services:
+  matplotlib:
+    container_name: matplotlib
+    image: matplotlib:1.0
+    build:
+      context: ./docker
+      dockerfile: ./matplotlib/Dockerfile
+    volumes:
+      - ./:/work
+    working_dir: /work
+    ports:
+      - 8888:8888
+    command: jupyter lab --ip=0.0.0.0 --allow-root --no-browser --NotebookApp.token=''
